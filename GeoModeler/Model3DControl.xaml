@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="GeoModeler.Model3DControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" xmlns:my="clr-namespace:GeoModeler" Background="Black">
+    <Grid>
+        <Viewport3D Name="projectView">
+            <Viewport3D.Camera>
+                <PerspectiveCamera Position="0,0,0" LookDirection="1,1,1" UpDirection="0,0,1" FieldOfView="90" />
+            </Viewport3D.Camera>
+        </Viewport3D>
+        <my:CameraControl HorizontalAlignment="Right" x:Name="cameraControl" VerticalAlignment="Bottom" Margin="0,0,4,4" Panel.ZIndex="1" />
+    </Grid>
+</UserControl>

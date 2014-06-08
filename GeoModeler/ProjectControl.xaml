@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="GeoModeler.ProjectControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" xmlns:my="clr-namespace:GeoModeler">
+    <Grid>
+        <TabControl Name="tabControl">
+            <TabItem Header="3D model" Name="tabItem">
+                <Grid>
+                    <StackPanel Name="toolsStackPanel" Background="{x:Null}" HorizontalAlignment="Left" Width="24" Height="92" VerticalAlignment="Top" Margin="4,4,0,0" Panel.ZIndex="2">
+                        <Button Content="+p" Height="23" Name="button1" Width="Auto" />
+                        <Button Content="-p" Height="23" Name="button2" Width="Auto" />
+                        <Button Content="+c" Height="23" Name="button3" Width="Auto" />
+                        <Button Content="-c" Height="23" Name="button4" Width="Auto" />
+                    </StackPanel>
+                    <my:Model3DControl x:Name="model3DControl" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="2D model"></TabItem>
+            <TabItem Header="info"></TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

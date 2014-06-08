@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataStructures.Rings.DataNode&lt;TData&gt;" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.DataNode&lt;TNode, TData&gt;">
+    <Position X="0.75" Y="6.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.DataRing&lt;TData&gt;" Collapsed="true">
+    <Position X="7.25" Y="19.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.DataRing&lt;TNode, TData&gt;">
+    <Position X="7.25" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAgQ=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtDataNode&lt;TData, TBack&gt;" Collapsed="true">
+    <Position X="3" Y="8.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtDataNode&lt;TNode, TData, TBack&gt;">
+    <Position X="3" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtDataNodeHead&lt;TData, TBack&gt;">
+    <Position X="6.5" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Rings.ExtDataNodeHead&lt;TNode, TData, TBack&gt;">
+    <Position X="6.5" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Rings.ExtendedDataRing&lt;TData, TBack&gt;" Collapsed="true">
+    <Position X="2" Y="19.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtendedDataRing&lt;TNode, THeadNode, TData, TBack&gt;">
+    <Position X="3.25" Y="16.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAgQ=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtendedRing&lt;TNode, THeadNode, TBack&gt;">
+    <Position X="4" Y="14.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAA=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtNode&lt;TNode, TBack&gt;">
+    <Position X="3" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.ExtNodeHead&lt;TNode, TBack&gt;">
+    <Position X="6.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Rings.Node&lt;TNode&gt;">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Ring&lt;TNode&gt;">
+    <Position X="7.25" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAQAAAAIAA=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.RingBase&lt;TNode&gt;">
+    <Position X="9.5" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACAAgAAEAAAAAAAGEACAACAAABARABAAIAI=</HashCode>
+      <FileName>Rings\Rings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.DataMultiNode&lt;TData&gt;" Collapsed="true">
+    <Position X="11.25" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.DataMultiNode&lt;TNode, TData&gt;">
+    <Position X="11.5" Y="6.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.DataMultiRing&lt;TNode, TData&gt;">
+    <Position X="11.75" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAgQ=</HashCode>
+      <FileName>Rings\Multidimentional\MultiRings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.ExtMultiNode&lt;TNode&gt;">
+    <Position X="14.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.MultiNode&lt;TNode&gt;">
+    <Position X="12" Y="4" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.MultiRing&lt;TNode&gt;">
+    <Position X="12" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAACAAAAAAAAABAQAAAAIAA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiRings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtDataMultiNode2D&lt;TNode, TData, TBackX, TBackY&gt;">
+    <Position X="17.25" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtDataNodeHeadX&lt;TNode, TData, TBackX, TBackY&gt;">
+    <Position X="21.25" Y="10" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.158" />
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtDataNodeHeadXY&lt;TNode, TData, TBackX, TBackY&gt;">
+    <Position X="21.25" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.164" />
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtDataNodeHeadY&lt;TNode, TData, TBackX, TBackY&gt;">
+    <Position X="21.25" Y="8.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.143" />
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtendedDataMultiRing2D&lt;TNode, TData, THeadNodeXY, THeadNodeX, THeadNodeY, TBackX, TBackY&gt;">
+    <Position X="17.25" Y="16.75" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgQ=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Rings2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtendedDataMultiRingX&lt;TNode, TData, THeadNodeXY, THeadNodeX, THeadNodeY, TBackX, TBackY&gt;">
+    <Position X="24" Y="16.75" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Rings2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtendedDataMultiRingY&lt;TNode, TData, THeadNodeXY, THeadNodeX, THeadNodeY, TBackX, TBackY&gt;">
+    <Position X="24" Y="19" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Rings2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtendedMultiRing2D&lt;TNode, THeadNodeXY, THeadNodeX, THeadNodeY, TBackX, TBackY&gt;">
+    <Position X="17.25" Y="12.75" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAABQgJAAAAAQAAAAAAAAABAAAAAAAQAFBAAAIAQ=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Rings2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtendedMultiRingX&lt;TNode, THeadNodeXY, THeadNodeX, THeadNodeY, TBackX, TBackY&gt;">
+    <Position X="24" Y="14.25" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Rings2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtendedMultiRingY&lt;TNode, THeadNodeXY, THeadNodeX, THeadNodeY, TBackX, TBackY&gt;">
+    <Position X="24" Y="12" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Rings2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtMultiNode2D&lt;TNode, TBackX, TBackY&gt;">
+    <Position X="17.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtNodeHeadX&lt;TNode, TBackX, TBackY&gt;">
+    <Position X="21.25" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.158" />
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtNodeHeadXY&lt;TNode, TBackX, TBackY&gt;">
+    <Position X="21.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.18" />
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.D2.ExtNodeHeadY&lt;TNode, TBackX, TBackY&gt;">
+    <Position X="21.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.206" />
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.ExtDataMultiNode&lt;TNode, TData&gt;">
+    <Position X="14.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.ExtDataMultiNode&lt;TData&gt;" Collapsed="true">
+    <Position X="14.25" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Rings.Multidimentional.DataMultiRing&lt;TData&gt;" Collapsed="true">
+    <Position X="11.25" Y="19.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\MultiRings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DataStructures.Rings.IExtNodeHead&lt;TBack&gt;">
+    <Position X="3" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Rings.Multidimentional.D2.IExtNodeHeadX&lt;TBack&gt;">
+    <Position X="14.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Rings.Multidimentional.D2.IExtNodeHeadY&lt;TBack&gt;">
+    <Position X="14.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rings\Multidimentional\D2\Nodes2D.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
